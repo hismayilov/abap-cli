@@ -1,11 +1,17 @@
 abap-cli
 ========
 
-A simple script to deploy code to a application server, run it, and return results. 
-Don't use it on production servers.
+An ABAP web resource for developing an ABAP report outside of SAP. The code can be saved, ran, and retreived. 
 
-`npm install request` after clone. 
+## Create a Report (HTTP POST)
 
-![](screenshots/abapcode.png)
+![](screenshots/POST.png)
 
-![](screenshots/run.PNG)
+## View a Report (HTTP GET)
+
+![](screenshots/GET.PNG)
+
+## Run a report (HTTP PUT)
+
+![](screenshots/PUT.png)
+
